@@ -3,7 +3,7 @@
 
     <style name="AppThemeWithActionBar" parent="Theme.Material3.DayNight">
         <!-- Konfigurasi tema lainnya di sini -->
-        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimary">@color/primary</item>
         <item name="android:statusBarColor">@android:color/white</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
