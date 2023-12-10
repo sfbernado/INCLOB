@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".RegisterActivity">
 
     <ScrollView
@@ -70,12 +71,12 @@
                 app:hintEnabled="false"
                 app:layout_constraintTop_toBottomOf="@id/textView2" >
 
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_nama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:hint="Nama Lengkap"
+                    android:hint="Masukkan nama lengkap"
                     android:fontFamily="@font/poppins_regular"
                     android:textColorHint="#666666"
                     android:background="@drawable/shape_et"
@@ -94,11 +95,11 @@
                 app:hintEnabled="false"
                 app:layout_constraintTop_toBottomOf="@id/til_nama" >
 
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Email"
+                    android:hint="Masukkan email"
                     android:inputType="textEmailAddress"
                     android:fontFamily="@font/poppins_regular"
                     android:textColorHint="#666666"
@@ -119,11 +120,11 @@
                 app:layout_constraintTop_toBottomOf="@id/til_email"
                 app:passwordToggleEnabled="true" >
 
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Password"
+                    android:hint="Masukkan password"
                     android:inputType="textPassword"
                     android:fontFamily="@font/poppins_regular"
                     android:textColorHint="#666666"

@@ -7,7 +7,7 @@ plugins {
 android {
     signingConfigs {
         getByName("debug") {
-            storeFile = file("C:\\Users\\user\\AndroidStudioProjects\\Keystore\\InclobKeystore.jks")
+            storeFile = file("C:\\Users\\stani\\Documents\\MATERI TIF\\SEMESTER 5\\Rekayasa Perangkat Lunak\\Proyek Akhir\\Keystore\\InclobKeystore.jks")
             storePassword = "satuduatiga"
             keyAlias = "keyinclob"
             keyPassword = "satuduatiga"
